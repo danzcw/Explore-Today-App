@@ -11,6 +11,7 @@ import { HeadlinesPage } from '../pages/headlines/headlines';
 import { HistoricPage } from '../pages/historic/historic';
 import { WeatherPage } from '../pages/weather/weather';
 import { WelcomePage } from '../pages/welcome/welcome';
+import { TabsPage } from '../pages/tabs/tabs';
 
 
 
@@ -22,7 +23,8 @@ import { WelcomePage } from '../pages/welcome/welcome';
     HeadlinesPage,
     HistoricPage,
     WeatherPage,
-    WelcomePage
+    WelcomePage,
+    TabsPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { WelcomePage } from '../pages/welcome/welcome';
     HeadlinesPage,
     HistoricPage,
     WeatherPage,
-    WelcomePage
+    WelcomePage,
+    TabsPage
   ],
   providers: [
     StatusBar,
